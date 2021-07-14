@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
 #include "queue.h"
 
 
@@ -17,7 +16,7 @@ Queue CreateQueue(){
 
 
 //判断一个队列是否为空
-int IsEmpty(Queue Q){
+int QueueIsEmpty(Queue Q){
     if(Q->first == Q->last){
         //队列中没有元素
         return 1;
@@ -29,7 +28,7 @@ int IsEmpty(Queue Q){
 
 
 //判断一个队列是否已满
-int IsFull(Queue Q){
+int QueueIsFull(Queue Q){
     if(Q->first == ( (Q->last+1) % Q->MaxLength) ){
         //队列已满
         return 1;
@@ -42,7 +41,7 @@ int IsFull(Queue Q){
 
 //一个元素入队
 void Enqueue(Queue Q, QueueDataType value){
-    if( IsFull(Q) ){
+    if( QueueIsFull(Q) ){
         //队列已满，不再入队
         printf("Queue is full!\n");
         return;
@@ -54,12 +53,12 @@ void Enqueue(Queue Q, QueueDataType value){
 
 //一个元素出队
 QueueDataType Dequeue(Queue Q){
-    if( IsEmpty(Q) ){
+    if( QueueIsEmpty(Q) ){
         //队列中没有元素，不出队
-        return -1000000;
+        return NULL;
     }
-    
-    int temp = Q->data[Q->first];    //记录队首的值
+
+    QueueDataType temp = Q->data[Q->first];    //记录队首的值
     Q->first = (Q->first + 1) % Q->MaxLength;
     return temp;
 }

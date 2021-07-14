@@ -1,16 +1,18 @@
 /* 数组实现的栈 */
 #include "stack.h"
+#include <stdio.h>
+#include <stdlib.h>
  
 Stack CreateStack( int MaxSize )
 {
     Stack S = (Stack)malloc(sizeof(struct SNode));
-    S->Data = (ElementType *)malloc(MaxSize * sizeof(ElementType));
+    S->Data = (StackElementType *)malloc(MaxSize * sizeof(StackElementType));
     S->Top = -1;
     S->MaxSize = MaxSize;
     return S;
 }
  
-int IsFull( Stack S )
+int StackIsFull( Stack S )
 {   
     if(S->Top == S->MaxSize-1) {
         return 1;
@@ -19,9 +21,9 @@ int IsFull( Stack S )
     }
 }
  
-int Push( Stack S, ElementType X )
+int Push( Stack S, StackElementType X )
 {
-    if ( IsFull(S) ) {
+    if ( StackIsFull(S) ) {
         printf("堆栈满");
         return 0;
     }
@@ -31,7 +33,7 @@ int Push( Stack S, ElementType X )
     }
 }
  
-int IsEmpty( Stack S )
+int StackIsEmpty( Stack S )
 {
     if(S->Top == -1) {
         return 1;
@@ -39,12 +41,12 @@ int IsEmpty( Stack S )
         return 0;
     }
 }
- 
-ElementType Pop( Stack S )
+
+StackElementType Pop( Stack S )
 {
-    if ( IsEmpty(S) ) {
+    if ( StackIsEmpty(S) ) {
         printf("堆栈空");
-        return -99999; /* ERROR是ElementType的特殊值，标志错误 */
+        return NULL; /* ERROR是ElementType的特殊值，标志错误 */
     }
     else 
         return ( S->Data[(S->Top)--] );
