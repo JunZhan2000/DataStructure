@@ -105,7 +105,7 @@ void InOrderTraverseByStack(BinaryTree Tree){
 // 后序遍历二叉树（非递归实现）
 void PostOrderTraverseByStack(BinaryTree Tree){
     Stack stack = CreateStack(MAX_SIZE);
-    BinaryNodePtr p = Tree, q = NULL;
+    BinaryNodePtr p = Tree, q = NULL, r = NULL; //r用于记录上一次访问的节点
     while (p || !StackIsEmpty(stack)){
         if(p){
             //遍历左子树
@@ -114,13 +114,15 @@ void PostOrderTraverseByStack(BinaryTree Tree){
         } else{
             q = Pop(stack);
             //遍历右子树
-            if(q->rchild == NULL){
-                //判断 有没有右子树或者是否访问完右子树，以决定继续访问右子树还是访问自身（q节点）
+            if(q->rchild == NULL || r == q->rchild){
+                //因为是后序遍历，若右子树访问完了，则上一个访问的节点一定是右侧子节点
+                //如果没有右子树或者已经访问完右子树，则访问自身（q节点）
                 Visit(q);
+                r = q;
             } else{
                 Push(stack, q);
+                p = q->rchild;
             }
-            p = q->rchild;
         }
     }
 }

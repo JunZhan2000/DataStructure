@@ -82,25 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/BinaryTree.c">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.c">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/BinaryTree.h">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.h">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/BinaryTreeTest.c">
-			<Option target="DataStructure"/>
-		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/queue/queue.c">
-			<Option target="DataStructure"/>
-		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/queue/queue.h">
-			<Option target="DataStructure"/>
-		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/stack/stack.c">
-			<Option target="DataStructure"/>
-		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/stack/stack.h">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTreeTest.c">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="C:/Users/23276/Desktop/DataStructure/CMakeLists.txt">

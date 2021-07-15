@@ -56,81 +56,49 @@ include CMakeFiles/DataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure.dir/flags.make
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj: ../Tree/BinaryTreeTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\BinaryTreeTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Tree\BinaryTreeTest.c
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj: ../Tree/ThreadTree/ThreadTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTree.c.obj   -c C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTree.c
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Tree\BinaryTreeTest.c > CMakeFiles\DataStructure.dir\Tree\BinaryTreeTest.c.i
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTree.c > CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTree.c.i
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Tree\BinaryTreeTest.c -o CMakeFiles\DataStructure.dir\Tree\BinaryTreeTest.c.s
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTree.c -o CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTree.c.s
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj: ../Tree/BinaryTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\BinaryTree.c.obj   -c C:\Users\23276\Desktop\DataStructure\Tree\BinaryTree.c
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj: ../Tree/ThreadTree/ThreadTreeTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTreeTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTreeTest.c
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Tree\BinaryTree.c > CMakeFiles\DataStructure.dir\Tree\BinaryTree.c.i
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTreeTest.c > CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTreeTest.c.i
 
-CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Tree\BinaryTree.c -o CMakeFiles\DataStructure.dir\Tree\BinaryTree.c.s
-
-CMakeFiles/DataStructure.dir/queue/queue.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/queue/queue.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/queue/queue.c.obj: ../queue/queue.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataStructure.dir/queue/queue.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\queue\queue.c.obj   -c C:\Users\23276\Desktop\DataStructure\queue\queue.c
-
-CMakeFiles/DataStructure.dir/queue/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/queue/queue.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\queue\queue.c > CMakeFiles\DataStructure.dir\queue\queue.c.i
-
-CMakeFiles/DataStructure.dir/queue/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/queue/queue.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\queue\queue.c -o CMakeFiles\DataStructure.dir\queue\queue.c.s
-
-CMakeFiles/DataStructure.dir/stack/stack.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/stack/stack.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/stack/stack.c.obj: ../stack/stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataStructure.dir/stack/stack.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\stack\stack.c.obj   -c C:\Users\23276\Desktop\DataStructure\stack\stack.c
-
-CMakeFiles/DataStructure.dir/stack/stack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/stack/stack.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\stack\stack.c > CMakeFiles\DataStructure.dir\stack\stack.c.i
-
-CMakeFiles/DataStructure.dir/stack/stack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/stack/stack.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\stack\stack.c -o CMakeFiles\DataStructure.dir\stack\stack.c.s
+CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Tree\ThreadTree\ThreadTreeTest.c -o CMakeFiles\DataStructure.dir\Tree\ThreadTree\ThreadTreeTest.c.s
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
-"CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj" \
-"CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj" \
-"CMakeFiles/DataStructure.dir/queue/queue.c.obj" \
-"CMakeFiles/DataStructure.dir/stack/stack.c.obj"
+"CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj" \
+"CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
-DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/queue/queue.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/stack/stack.c.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

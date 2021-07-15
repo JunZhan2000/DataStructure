@@ -1,7 +1,7 @@
 #ifndef _STACK_H
 #define _STACK_H
 
-#include "BinaryTree.h"
+#include "BinaryTree/BinaryTree.h"
 
 typedef  BinaryNodePtr StackElementType;
 typedef int Position;

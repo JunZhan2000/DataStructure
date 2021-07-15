@@ -8,11 +8,5 @@ include_directories(stack)
 include_directories(Tree)
 
 add_executable(DataStructure
-        Tree/BinaryTreeTest.c
-        Tree/BinaryTree.c
-        Tree/BinaryTree.h
-        queue/queue.c
-        queue/queue.h
-        stack/stack.c
-        stack/stack.h
+        Tree/ThreadTree/ThreadTree.h Tree/ThreadTree/ThreadTree.c Tree/ThreadTree/ThreadTreeTest.c
         )

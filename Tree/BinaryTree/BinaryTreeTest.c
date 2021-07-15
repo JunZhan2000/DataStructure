@@ -28,10 +28,10 @@ int main(void){
     PreOrderTraverseByStack(Tree);
     //中序遍历（非递归）
     printf("\n中序遍历：\n");
-    InOrderTraverseByRecursion(Tree);
+    InOrderTraverseByStack(Tree);
     //后序遍历（非递归）
     printf("\n后序遍历：\n");
-    PostOrderTraverseByRecursion(Tree);
+    PostOrderTraverseByStack(Tree);
 
     //层次遍历
     printf("\n层次遍历：\n");

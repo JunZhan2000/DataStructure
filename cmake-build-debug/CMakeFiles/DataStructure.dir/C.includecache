@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/23276/Desktop/DataStructure/Tree/BinaryTree.h
-
-C:/Users/23276/Desktop/DataStructure/Tree/BinaryTreeTest.c
-BinaryTree.h
-C:/Users/23276/Desktop/DataStructure/Tree/BinaryTree.h
+C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.c
+ThreadTree.h
+C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.h
 stdio.h
 -
 stdlib.h
 -
+
+C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.h
 

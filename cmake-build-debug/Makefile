@@ -122,113 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Tree/BinaryTree.obj: Tree/BinaryTree.c.obj
+Tree/ThreadTree/ThreadTree.obj: Tree/ThreadTree/ThreadTree.c.obj
 
-.PHONY : Tree/BinaryTree.obj
-
-# target to build an object file
-Tree/BinaryTree.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj
-.PHONY : Tree/BinaryTree.c.obj
-
-Tree/BinaryTree.i: Tree/BinaryTree.c.i
-
-.PHONY : Tree/BinaryTree.i
-
-# target to preprocess a source file
-Tree/BinaryTree.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.i
-.PHONY : Tree/BinaryTree.c.i
-
-Tree/BinaryTree.s: Tree/BinaryTree.c.s
-
-.PHONY : Tree/BinaryTree.s
-
-# target to generate assembly for a file
-Tree/BinaryTree.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.s
-.PHONY : Tree/BinaryTree.c.s
-
-Tree/BinaryTreeTest.obj: Tree/BinaryTreeTest.c.obj
-
-.PHONY : Tree/BinaryTreeTest.obj
+.PHONY : Tree/ThreadTree/ThreadTree.obj
 
 # target to build an object file
-Tree/BinaryTreeTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj
-.PHONY : Tree/BinaryTreeTest.c.obj
+Tree/ThreadTree/ThreadTree.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj
+.PHONY : Tree/ThreadTree/ThreadTree.c.obj
 
-Tree/BinaryTreeTest.i: Tree/BinaryTreeTest.c.i
+Tree/ThreadTree/ThreadTree.i: Tree/ThreadTree/ThreadTree.c.i
 
-.PHONY : Tree/BinaryTreeTest.i
+.PHONY : Tree/ThreadTree/ThreadTree.i
 
 # target to preprocess a source file
-Tree/BinaryTreeTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.i
-.PHONY : Tree/BinaryTreeTest.c.i
+Tree/ThreadTree/ThreadTree.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.i
+.PHONY : Tree/ThreadTree/ThreadTree.c.i
 
-Tree/BinaryTreeTest.s: Tree/BinaryTreeTest.c.s
+Tree/ThreadTree/ThreadTree.s: Tree/ThreadTree/ThreadTree.c.s
 
-.PHONY : Tree/BinaryTreeTest.s
+.PHONY : Tree/ThreadTree/ThreadTree.s
 
 # target to generate assembly for a file
-Tree/BinaryTreeTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.s
-.PHONY : Tree/BinaryTreeTest.c.s
+Tree/ThreadTree/ThreadTree.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.s
+.PHONY : Tree/ThreadTree/ThreadTree.c.s
 
-queue/queue.obj: queue/queue.c.obj
+Tree/ThreadTree/ThreadTreeTest.obj: Tree/ThreadTree/ThreadTreeTest.c.obj
 
-.PHONY : queue/queue.obj
+.PHONY : Tree/ThreadTree/ThreadTreeTest.obj
 
 # target to build an object file
-queue/queue.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/queue/queue.c.obj
-.PHONY : queue/queue.c.obj
+Tree/ThreadTree/ThreadTreeTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj
+.PHONY : Tree/ThreadTree/ThreadTreeTest.c.obj
 
-queue/queue.i: queue/queue.c.i
+Tree/ThreadTree/ThreadTreeTest.i: Tree/ThreadTree/ThreadTreeTest.c.i
 
-.PHONY : queue/queue.i
-
-# target to preprocess a source file
-queue/queue.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/queue/queue.c.i
-.PHONY : queue/queue.c.i
-
-queue/queue.s: queue/queue.c.s
-
-.PHONY : queue/queue.s
-
-# target to generate assembly for a file
-queue/queue.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/queue/queue.c.s
-.PHONY : queue/queue.c.s
-
-stack/stack.obj: stack/stack.c.obj
-
-.PHONY : stack/stack.obj
-
-# target to build an object file
-stack/stack.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/stack/stack.c.obj
-.PHONY : stack/stack.c.obj
-
-stack/stack.i: stack/stack.c.i
-
-.PHONY : stack/stack.i
+.PHONY : Tree/ThreadTree/ThreadTreeTest.i
 
 # target to preprocess a source file
-stack/stack.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/stack/stack.c.i
-.PHONY : stack/stack.c.i
+Tree/ThreadTree/ThreadTreeTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.i
+.PHONY : Tree/ThreadTree/ThreadTreeTest.c.i
 
-stack/stack.s: stack/stack.c.s
+Tree/ThreadTree/ThreadTreeTest.s: Tree/ThreadTree/ThreadTreeTest.c.s
 
-.PHONY : stack/stack.s
+.PHONY : Tree/ThreadTree/ThreadTreeTest.s
 
 # target to generate assembly for a file
-stack/stack.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/stack/stack.c.s
-.PHONY : stack/stack.c.s
+Tree/ThreadTree/ThreadTreeTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.s
+.PHONY : Tree/ThreadTree/ThreadTreeTest.c.s
 
 # Help Target
 help:
@@ -239,18 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Tree/BinaryTree.obj
-	@echo ... Tree/BinaryTree.i
-	@echo ... Tree/BinaryTree.s
-	@echo ... Tree/BinaryTreeTest.obj
-	@echo ... Tree/BinaryTreeTest.i
-	@echo ... Tree/BinaryTreeTest.s
-	@echo ... queue/queue.obj
-	@echo ... queue/queue.i
-	@echo ... queue/queue.s
-	@echo ... stack/stack.obj
-	@echo ... stack/stack.i
-	@echo ... stack/stack.s
+	@echo ... Tree/ThreadTree/ThreadTree.obj
+	@echo ... Tree/ThreadTree/ThreadTree.i
+	@echo ... Tree/ThreadTree/ThreadTree.s
+	@echo ... Tree/ThreadTree/ThreadTreeTest.obj
+	@echo ... Tree/ThreadTree/ThreadTreeTest.i
+	@echo ... Tree/ThreadTree/ThreadTreeTest.s
 .PHONY : help
 
 

@@ -4,10 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/23276/Desktop/DataStructure/Tree/BinaryTree.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/BinaryTree.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/Tree/BinaryTreeTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/BinaryTreeTest.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/queue/queue.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/queue/queue.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/stack/stack.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/stack/stack.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTreeTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

@@ -3,7 +3,7 @@
 
 #define QueueLength 100
 
-#include "BinaryTree.h"
+#include "BinaryTree/BinaryTree.h"
 
 typedef BinaryNodePtr QueueDataType;
 
