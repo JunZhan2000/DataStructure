@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.obj"
-  "CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.obj"
+  "CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj"
+  "CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
   "DataStructure.pdb"

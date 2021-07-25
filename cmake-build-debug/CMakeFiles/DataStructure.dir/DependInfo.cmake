@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearch/BinarySearch.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearch/BinarySearchTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearchTree/BSTTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearchTree/BinarySearchTree.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

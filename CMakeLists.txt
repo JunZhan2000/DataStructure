@@ -9,7 +9,6 @@ include_directories(Tree)
 include_directories(Graph)
 
 add_executable(DataStructure
-        Search/BinarySearch/BinarySearch.h
-        Search/BinarySearch/BinarySearch.c
-        Search/BinarySearch/BinarySearchTest.c
-        )
+        Search/BinarySearchTree/BinarySearchTree.h
+        Search/BinarySearchTree/BinarySearchTree.c
+        Search/BinarySearchTree/BSTTest.c)

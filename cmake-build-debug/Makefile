@@ -122,59 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Search/BinarySearch/BinarySearch.obj: Search/BinarySearch/BinarySearch.c.obj
+Search/BinarySearchTree/BSTTest.obj: Search/BinarySearchTree/BSTTest.c.obj
 
-.PHONY : Search/BinarySearch/BinarySearch.obj
-
-# target to build an object file
-Search/BinarySearch/BinarySearch.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.obj
-.PHONY : Search/BinarySearch/BinarySearch.c.obj
-
-Search/BinarySearch/BinarySearch.i: Search/BinarySearch/BinarySearch.c.i
-
-.PHONY : Search/BinarySearch/BinarySearch.i
-
-# target to preprocess a source file
-Search/BinarySearch/BinarySearch.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.i
-.PHONY : Search/BinarySearch/BinarySearch.c.i
-
-Search/BinarySearch/BinarySearch.s: Search/BinarySearch/BinarySearch.c.s
-
-.PHONY : Search/BinarySearch/BinarySearch.s
-
-# target to generate assembly for a file
-Search/BinarySearch/BinarySearch.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.s
-.PHONY : Search/BinarySearch/BinarySearch.c.s
-
-Search/BinarySearch/BinarySearchTest.obj: Search/BinarySearch/BinarySearchTest.c.obj
-
-.PHONY : Search/BinarySearch/BinarySearchTest.obj
+.PHONY : Search/BinarySearchTree/BSTTest.obj
 
 # target to build an object file
-Search/BinarySearch/BinarySearchTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.obj
-.PHONY : Search/BinarySearch/BinarySearchTest.c.obj
+Search/BinarySearchTree/BSTTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj
+.PHONY : Search/BinarySearchTree/BSTTest.c.obj
 
-Search/BinarySearch/BinarySearchTest.i: Search/BinarySearch/BinarySearchTest.c.i
+Search/BinarySearchTree/BSTTest.i: Search/BinarySearchTree/BSTTest.c.i
 
-.PHONY : Search/BinarySearch/BinarySearchTest.i
+.PHONY : Search/BinarySearchTree/BSTTest.i
 
 # target to preprocess a source file
-Search/BinarySearch/BinarySearchTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.i
-.PHONY : Search/BinarySearch/BinarySearchTest.c.i
+Search/BinarySearchTree/BSTTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.i
+.PHONY : Search/BinarySearchTree/BSTTest.c.i
 
-Search/BinarySearch/BinarySearchTest.s: Search/BinarySearch/BinarySearchTest.c.s
+Search/BinarySearchTree/BSTTest.s: Search/BinarySearchTree/BSTTest.c.s
 
-.PHONY : Search/BinarySearch/BinarySearchTest.s
+.PHONY : Search/BinarySearchTree/BSTTest.s
 
 # target to generate assembly for a file
-Search/BinarySearch/BinarySearchTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.s
-.PHONY : Search/BinarySearch/BinarySearchTest.c.s
+Search/BinarySearchTree/BSTTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.s
+.PHONY : Search/BinarySearchTree/BSTTest.c.s
+
+Search/BinarySearchTree/BinarySearchTree.obj: Search/BinarySearchTree/BinarySearchTree.c.obj
+
+.PHONY : Search/BinarySearchTree/BinarySearchTree.obj
+
+# target to build an object file
+Search/BinarySearchTree/BinarySearchTree.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj
+.PHONY : Search/BinarySearchTree/BinarySearchTree.c.obj
+
+Search/BinarySearchTree/BinarySearchTree.i: Search/BinarySearchTree/BinarySearchTree.c.i
+
+.PHONY : Search/BinarySearchTree/BinarySearchTree.i
+
+# target to preprocess a source file
+Search/BinarySearchTree/BinarySearchTree.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.i
+.PHONY : Search/BinarySearchTree/BinarySearchTree.c.i
+
+Search/BinarySearchTree/BinarySearchTree.s: Search/BinarySearchTree/BinarySearchTree.c.s
+
+.PHONY : Search/BinarySearchTree/BinarySearchTree.s
+
+# target to generate assembly for a file
+Search/BinarySearchTree/BinarySearchTree.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.s
+.PHONY : Search/BinarySearchTree/BinarySearchTree.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Search/BinarySearch/BinarySearch.obj
-	@echo ... Search/BinarySearch/BinarySearch.i
-	@echo ... Search/BinarySearch/BinarySearch.s
-	@echo ... Search/BinarySearch/BinarySearchTest.obj
-	@echo ... Search/BinarySearch/BinarySearchTest.i
-	@echo ... Search/BinarySearch/BinarySearchTest.s
+	@echo ... Search/BinarySearchTree/BSTTest.obj
+	@echo ... Search/BinarySearchTree/BSTTest.i
+	@echo ... Search/BinarySearchTree/BSTTest.s
+	@echo ... Search/BinarySearchTree/BinarySearchTree.obj
+	@echo ... Search/BinarySearchTree/BinarySearchTree.i
+	@echo ... Search/BinarySearchTree/BinarySearchTree.s
 .PHONY : help
 
 
