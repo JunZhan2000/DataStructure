@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj"
-  "CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj"
+  "CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.obj"
+  "CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
   "DataStructure.pdb"

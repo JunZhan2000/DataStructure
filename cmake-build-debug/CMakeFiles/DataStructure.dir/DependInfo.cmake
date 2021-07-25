@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTree.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTree.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/Tree/ThreadTree/ThreadTreeTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Tree/ThreadTree/ThreadTreeTest.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearch/BinarySearch.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearch.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Search/BinarySearch/BinarySearchTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Search/BinarySearch/BinarySearchTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -14,6 +14,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../queue"
   "../stack"
   "../Tree"
+  "../Graph"
   )
 
 # Targets to which this target links.
