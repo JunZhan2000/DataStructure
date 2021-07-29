@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj"
+  "CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj"
   "CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj"
   "CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
   "DataStructure.pdb"

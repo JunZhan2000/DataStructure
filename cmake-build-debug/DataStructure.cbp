@@ -84,6 +84,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Search/AVL/AVL.c">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Search/AVL/AVL.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Search/AVL/AVLTest.c">
+			<Option target="DataStructure"/>
+		</Unit>
 		<Unit filename="C:/Users/23276/Desktop/DataStructure/Search/BinarySearchTree/BSTTest.c">
 			<Option target="DataStructure"/>
 		</Unit>
@@ -91,6 +100,15 @@
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="C:/Users/23276/Desktop/DataStructure/Search/BinarySearchTree/BinarySearchTree.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Insert/InsertSort.c">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Insert/InsertSort.h">
+			<Option target="DataStructure"/>
+		</Unit>
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Insert/InsertSortTest.c">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="C:/Users/23276/Desktop/DataStructure/CMakeLists.txt">

@@ -122,6 +122,60 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
+Search/AVL/AVL.obj: Search/AVL/AVL.c.obj
+
+.PHONY : Search/AVL/AVL.obj
+
+# target to build an object file
+Search/AVL/AVL.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj
+.PHONY : Search/AVL/AVL.c.obj
+
+Search/AVL/AVL.i: Search/AVL/AVL.c.i
+
+.PHONY : Search/AVL/AVL.i
+
+# target to preprocess a source file
+Search/AVL/AVL.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.i
+.PHONY : Search/AVL/AVL.c.i
+
+Search/AVL/AVL.s: Search/AVL/AVL.c.s
+
+.PHONY : Search/AVL/AVL.s
+
+# target to generate assembly for a file
+Search/AVL/AVL.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.s
+.PHONY : Search/AVL/AVL.c.s
+
+Search/AVL/AVLTest.obj: Search/AVL/AVLTest.c.obj
+
+.PHONY : Search/AVL/AVLTest.obj
+
+# target to build an object file
+Search/AVL/AVLTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj
+.PHONY : Search/AVL/AVLTest.c.obj
+
+Search/AVL/AVLTest.i: Search/AVL/AVLTest.c.i
+
+.PHONY : Search/AVL/AVLTest.i
+
+# target to preprocess a source file
+Search/AVL/AVLTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.i
+.PHONY : Search/AVL/AVLTest.c.i
+
+Search/AVL/AVLTest.s: Search/AVL/AVLTest.c.s
+
+.PHONY : Search/AVL/AVLTest.s
+
+# target to generate assembly for a file
+Search/AVL/AVLTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.s
+.PHONY : Search/AVL/AVLTest.c.s
+
 Search/BinarySearchTree/BSTTest.obj: Search/BinarySearchTree/BSTTest.c.obj
 
 .PHONY : Search/BinarySearchTree/BSTTest.obj
@@ -176,6 +230,60 @@ Search/BinarySearchTree/BinarySearchTree.c.s:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.s
 .PHONY : Search/BinarySearchTree/BinarySearchTree.c.s
 
+Sort/Insert/InsertSort.obj: Sort/Insert/InsertSort.c.obj
+
+.PHONY : Sort/Insert/InsertSort.obj
+
+# target to build an object file
+Sort/Insert/InsertSort.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj
+.PHONY : Sort/Insert/InsertSort.c.obj
+
+Sort/Insert/InsertSort.i: Sort/Insert/InsertSort.c.i
+
+.PHONY : Sort/Insert/InsertSort.i
+
+# target to preprocess a source file
+Sort/Insert/InsertSort.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.i
+.PHONY : Sort/Insert/InsertSort.c.i
+
+Sort/Insert/InsertSort.s: Sort/Insert/InsertSort.c.s
+
+.PHONY : Sort/Insert/InsertSort.s
+
+# target to generate assembly for a file
+Sort/Insert/InsertSort.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.s
+.PHONY : Sort/Insert/InsertSort.c.s
+
+Sort/Insert/InsertSortTest.obj: Sort/Insert/InsertSortTest.c.obj
+
+.PHONY : Sort/Insert/InsertSortTest.obj
+
+# target to build an object file
+Sort/Insert/InsertSortTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj
+.PHONY : Sort/Insert/InsertSortTest.c.obj
+
+Sort/Insert/InsertSortTest.i: Sort/Insert/InsertSortTest.c.i
+
+.PHONY : Sort/Insert/InsertSortTest.i
+
+# target to preprocess a source file
+Sort/Insert/InsertSortTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.i
+.PHONY : Sort/Insert/InsertSortTest.c.i
+
+Sort/Insert/InsertSortTest.s: Sort/Insert/InsertSortTest.c.s
+
+.PHONY : Sort/Insert/InsertSortTest.s
+
+# target to generate assembly for a file
+Sort/Insert/InsertSortTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.s
+.PHONY : Sort/Insert/InsertSortTest.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -185,12 +293,24 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Search/AVL/AVL.obj
+	@echo ... Search/AVL/AVL.i
+	@echo ... Search/AVL/AVL.s
+	@echo ... Search/AVL/AVLTest.obj
+	@echo ... Search/AVL/AVLTest.i
+	@echo ... Search/AVL/AVLTest.s
 	@echo ... Search/BinarySearchTree/BSTTest.obj
 	@echo ... Search/BinarySearchTree/BSTTest.i
 	@echo ... Search/BinarySearchTree/BSTTest.s
 	@echo ... Search/BinarySearchTree/BinarySearchTree.obj
 	@echo ... Search/BinarySearchTree/BinarySearchTree.i
 	@echo ... Search/BinarySearchTree/BinarySearchTree.s
+	@echo ... Sort/Insert/InsertSort.obj
+	@echo ... Sort/Insert/InsertSort.i
+	@echo ... Sort/Insert/InsertSort.s
+	@echo ... Sort/Insert/InsertSortTest.obj
+	@echo ... Sort/Insert/InsertSortTest.i
+	@echo ... Sort/Insert/InsertSortTest.s
 .PHONY : help
 
 
