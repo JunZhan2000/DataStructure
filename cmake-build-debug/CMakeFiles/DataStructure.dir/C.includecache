@@ -6,5 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/23276/Desktop/DataStructure/Sort/Insert/InsertSort.c
+C:/Users/23276/Desktop/DataStructure/Sort/Swap/SwapSort.c
+stdio.h
+-
 

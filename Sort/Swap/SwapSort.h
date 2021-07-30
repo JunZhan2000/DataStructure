@@ -12,6 +12,6 @@ void swap(int nums[], int i, int j);
 void BubbleSort(int nums[], int length);
 // 快速排序
 void QuickSort(int nums[], int length);
-
-
+void Quick_Sort(int nums[], int start, int end);
+int Middle3(int nums[], int start, int end);
 #endif //DATASTRUCTURE_SWAPSORT_H

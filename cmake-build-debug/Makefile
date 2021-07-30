@@ -122,59 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Sort/Insert/InsertSort.obj: Sort/Insert/InsertSort.c.obj
+Sort/Swap/SwapSort.obj: Sort/Swap/SwapSort.c.obj
 
-.PHONY : Sort/Insert/InsertSort.obj
-
-# target to build an object file
-Sort/Insert/InsertSort.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj
-.PHONY : Sort/Insert/InsertSort.c.obj
-
-Sort/Insert/InsertSort.i: Sort/Insert/InsertSort.c.i
-
-.PHONY : Sort/Insert/InsertSort.i
-
-# target to preprocess a source file
-Sort/Insert/InsertSort.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.i
-.PHONY : Sort/Insert/InsertSort.c.i
-
-Sort/Insert/InsertSort.s: Sort/Insert/InsertSort.c.s
-
-.PHONY : Sort/Insert/InsertSort.s
-
-# target to generate assembly for a file
-Sort/Insert/InsertSort.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.s
-.PHONY : Sort/Insert/InsertSort.c.s
-
-Sort/Insert/InsertSortTest.obj: Sort/Insert/InsertSortTest.c.obj
-
-.PHONY : Sort/Insert/InsertSortTest.obj
+.PHONY : Sort/Swap/SwapSort.obj
 
 # target to build an object file
-Sort/Insert/InsertSortTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj
-.PHONY : Sort/Insert/InsertSortTest.c.obj
+Sort/Swap/SwapSort.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj
+.PHONY : Sort/Swap/SwapSort.c.obj
 
-Sort/Insert/InsertSortTest.i: Sort/Insert/InsertSortTest.c.i
+Sort/Swap/SwapSort.i: Sort/Swap/SwapSort.c.i
 
-.PHONY : Sort/Insert/InsertSortTest.i
+.PHONY : Sort/Swap/SwapSort.i
 
 # target to preprocess a source file
-Sort/Insert/InsertSortTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.i
-.PHONY : Sort/Insert/InsertSortTest.c.i
+Sort/Swap/SwapSort.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.i
+.PHONY : Sort/Swap/SwapSort.c.i
 
-Sort/Insert/InsertSortTest.s: Sort/Insert/InsertSortTest.c.s
+Sort/Swap/SwapSort.s: Sort/Swap/SwapSort.c.s
 
-.PHONY : Sort/Insert/InsertSortTest.s
+.PHONY : Sort/Swap/SwapSort.s
 
 # target to generate assembly for a file
-Sort/Insert/InsertSortTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.s
-.PHONY : Sort/Insert/InsertSortTest.c.s
+Sort/Swap/SwapSort.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.s
+.PHONY : Sort/Swap/SwapSort.c.s
+
+Sort/Swap/SwapSortTest.obj: Sort/Swap/SwapSortTest.c.obj
+
+.PHONY : Sort/Swap/SwapSortTest.obj
+
+# target to build an object file
+Sort/Swap/SwapSortTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj
+.PHONY : Sort/Swap/SwapSortTest.c.obj
+
+Sort/Swap/SwapSortTest.i: Sort/Swap/SwapSortTest.c.i
+
+.PHONY : Sort/Swap/SwapSortTest.i
+
+# target to preprocess a source file
+Sort/Swap/SwapSortTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.i
+.PHONY : Sort/Swap/SwapSortTest.c.i
+
+Sort/Swap/SwapSortTest.s: Sort/Swap/SwapSortTest.c.s
+
+.PHONY : Sort/Swap/SwapSortTest.s
+
+# target to generate assembly for a file
+Sort/Swap/SwapSortTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.s
+.PHONY : Sort/Swap/SwapSortTest.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sort/Insert/InsertSort.obj
-	@echo ... Sort/Insert/InsertSort.i
-	@echo ... Sort/Insert/InsertSort.s
-	@echo ... Sort/Insert/InsertSortTest.obj
-	@echo ... Sort/Insert/InsertSortTest.i
-	@echo ... Sort/Insert/InsertSortTest.s
+	@echo ... Sort/Swap/SwapSort.obj
+	@echo ... Sort/Swap/SwapSort.i
+	@echo ... Sort/Swap/SwapSort.s
+	@echo ... Sort/Swap/SwapSortTest.obj
+	@echo ... Sort/Swap/SwapSortTest.i
+	@echo ... Sort/Swap/SwapSortTest.s
 .PHONY : help
 
 

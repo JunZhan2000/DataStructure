@@ -25,9 +25,10 @@ int main(void){
     printf("冒泡排序：");
     OutputNums(nums, length);
 
-    QuickSort(nums, length);
+    int nums2[8] = {49, 38, 65, 97, 76, 13, 27, 49};
+    QuickSort(nums2, length);
     printf("快速排序：");
-    OutputNums(nums, length);
+    OutputNums(nums2, length);
 
     return  0;
 }
