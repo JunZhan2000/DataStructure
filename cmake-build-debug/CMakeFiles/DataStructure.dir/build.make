@@ -56,66 +56,10 @@ include CMakeFiles/DataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure.dir/flags.make
 
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj: ../Search/BinarySearchTree/BinarySearchTree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BinarySearchTree.c.obj   -c C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BinarySearchTree.c
-
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BinarySearchTree.c > CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BinarySearchTree.c.i
-
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BinarySearchTree.c -o CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BinarySearchTree.c.s
-
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj: ../Search/BinarySearchTree/BSTTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BSTTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BSTTest.c
-
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BSTTest.c > CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BSTTest.c.i
-
-CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Search\BinarySearchTree\BSTTest.c -o CMakeFiles\DataStructure.dir\Search\BinarySearchTree\BSTTest.c.s
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj: ../Search/AVL/AVL.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Search\AVL\AVL.c.obj   -c C:\Users\23276\Desktop\DataStructure\Search\AVL\AVL.c
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Search\AVL\AVL.c > CMakeFiles\DataStructure.dir\Search\AVL\AVL.c.i
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Search\AVL\AVL.c -o CMakeFiles\DataStructure.dir\Search\AVL\AVL.c.s
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj: ../Search/AVL/AVLTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Search\AVL\AVLTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Search\AVL\AVLTest.c
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Search\AVL\AVLTest.c > CMakeFiles\DataStructure.dir\Search\AVL\AVLTest.c.i
-
-CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Search\AVL\AVLTest.c -o CMakeFiles\DataStructure.dir\Search\AVL\AVLTest.c.s
-
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj: CMakeFiles/DataStructure.dir/flags.make
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj: ../Sort/Insert/InsertSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Insert\InsertSort.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Insert\InsertSort.c
 
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.i: cmake_force
@@ -129,7 +73,7 @@ CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.s: cmake_force
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj: ../Sort/Insert/InsertSortTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Insert\InsertSortTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Insert\InsertSortTest.c
 
 CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.i: cmake_force
@@ -142,27 +86,19 @@ CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.s: cmake_force
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
-"CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj" \
-"CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj" \
-"CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj" \
-"CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj" \
 "CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj" \
 "CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
-DataStructure.exe: CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Insert/InsertSort.c.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Insert/InsertSortTest.c.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable DataStructure.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable DataStructure.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\DataStructure.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

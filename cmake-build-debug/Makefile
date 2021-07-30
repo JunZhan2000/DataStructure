@@ -122,114 +122,6 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Search/AVL/AVL.obj: Search/AVL/AVL.c.obj
-
-.PHONY : Search/AVL/AVL.obj
-
-# target to build an object file
-Search/AVL/AVL.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.obj
-.PHONY : Search/AVL/AVL.c.obj
-
-Search/AVL/AVL.i: Search/AVL/AVL.c.i
-
-.PHONY : Search/AVL/AVL.i
-
-# target to preprocess a source file
-Search/AVL/AVL.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.i
-.PHONY : Search/AVL/AVL.c.i
-
-Search/AVL/AVL.s: Search/AVL/AVL.c.s
-
-.PHONY : Search/AVL/AVL.s
-
-# target to generate assembly for a file
-Search/AVL/AVL.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVL.c.s
-.PHONY : Search/AVL/AVL.c.s
-
-Search/AVL/AVLTest.obj: Search/AVL/AVLTest.c.obj
-
-.PHONY : Search/AVL/AVLTest.obj
-
-# target to build an object file
-Search/AVL/AVLTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.obj
-.PHONY : Search/AVL/AVLTest.c.obj
-
-Search/AVL/AVLTest.i: Search/AVL/AVLTest.c.i
-
-.PHONY : Search/AVL/AVLTest.i
-
-# target to preprocess a source file
-Search/AVL/AVLTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.i
-.PHONY : Search/AVL/AVLTest.c.i
-
-Search/AVL/AVLTest.s: Search/AVL/AVLTest.c.s
-
-.PHONY : Search/AVL/AVLTest.s
-
-# target to generate assembly for a file
-Search/AVL/AVLTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/AVL/AVLTest.c.s
-.PHONY : Search/AVL/AVLTest.c.s
-
-Search/BinarySearchTree/BSTTest.obj: Search/BinarySearchTree/BSTTest.c.obj
-
-.PHONY : Search/BinarySearchTree/BSTTest.obj
-
-# target to build an object file
-Search/BinarySearchTree/BSTTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.obj
-.PHONY : Search/BinarySearchTree/BSTTest.c.obj
-
-Search/BinarySearchTree/BSTTest.i: Search/BinarySearchTree/BSTTest.c.i
-
-.PHONY : Search/BinarySearchTree/BSTTest.i
-
-# target to preprocess a source file
-Search/BinarySearchTree/BSTTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.i
-.PHONY : Search/BinarySearchTree/BSTTest.c.i
-
-Search/BinarySearchTree/BSTTest.s: Search/BinarySearchTree/BSTTest.c.s
-
-.PHONY : Search/BinarySearchTree/BSTTest.s
-
-# target to generate assembly for a file
-Search/BinarySearchTree/BSTTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BSTTest.c.s
-.PHONY : Search/BinarySearchTree/BSTTest.c.s
-
-Search/BinarySearchTree/BinarySearchTree.obj: Search/BinarySearchTree/BinarySearchTree.c.obj
-
-.PHONY : Search/BinarySearchTree/BinarySearchTree.obj
-
-# target to build an object file
-Search/BinarySearchTree/BinarySearchTree.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.obj
-.PHONY : Search/BinarySearchTree/BinarySearchTree.c.obj
-
-Search/BinarySearchTree/BinarySearchTree.i: Search/BinarySearchTree/BinarySearchTree.c.i
-
-.PHONY : Search/BinarySearchTree/BinarySearchTree.i
-
-# target to preprocess a source file
-Search/BinarySearchTree/BinarySearchTree.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.i
-.PHONY : Search/BinarySearchTree/BinarySearchTree.c.i
-
-Search/BinarySearchTree/BinarySearchTree.s: Search/BinarySearchTree/BinarySearchTree.c.s
-
-.PHONY : Search/BinarySearchTree/BinarySearchTree.s
-
-# target to generate assembly for a file
-Search/BinarySearchTree/BinarySearchTree.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Search/BinarySearchTree/BinarySearchTree.c.s
-.PHONY : Search/BinarySearchTree/BinarySearchTree.c.s
-
 Sort/Insert/InsertSort.obj: Sort/Insert/InsertSort.c.obj
 
 .PHONY : Sort/Insert/InsertSort.obj
@@ -293,18 +185,6 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Search/AVL/AVL.obj
-	@echo ... Search/AVL/AVL.i
-	@echo ... Search/AVL/AVL.s
-	@echo ... Search/AVL/AVLTest.obj
-	@echo ... Search/AVL/AVLTest.i
-	@echo ... Search/AVL/AVLTest.s
-	@echo ... Search/BinarySearchTree/BSTTest.obj
-	@echo ... Search/BinarySearchTree/BSTTest.i
-	@echo ... Search/BinarySearchTree/BSTTest.s
-	@echo ... Search/BinarySearchTree/BinarySearchTree.obj
-	@echo ... Search/BinarySearchTree/BinarySearchTree.i
-	@echo ... Search/BinarySearchTree/BinarySearchTree.s
 	@echo ... Sort/Insert/InsertSort.obj
 	@echo ... Sort/Insert/InsertSort.i
 	@echo ... Sort/Insert/InsertSort.s
