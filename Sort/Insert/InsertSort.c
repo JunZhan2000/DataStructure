@@ -32,8 +32,8 @@ void BinInsertSort(int nums[], int length){
         int currentNum = nums[i];   // 当前待插入的数字
         start = 0;
         end  = i-1;
-        mid = (start + end) / 2;
         while (start <= end){
+            mid = (start + end) / 2;
             if (nums[mid] == nums[i]){
                 insertIndex = mid;
                 break;
@@ -48,7 +48,7 @@ void BinInsertSort(int nums[], int length){
         }
         // 进行插入
         int temp = nums[i];
-        for (int j = i-1; j >= insertIndex; i--){
+        for (int j = i-1; j >= insertIndex; j--){
             nums[j+1] = nums[j];
         }
         nums[insertIndex] = temp;
@@ -62,7 +62,7 @@ void ShellInsert(int nums[], int length, int hop){
     int mov;
     for(int i = 0; i < hop; i++){
         // 一个循环排序一个分组
-        for(int j = i; j < length; j +=hop){
+        for(int j = i; j < length; j += hop){
             int currentNum = nums[j];   // 当前待插入的数字
             mov = j - hop;
             while (mov >= 0 && currentNum < nums[mov]){
@@ -76,7 +76,7 @@ void ShellInsert(int nums[], int length, int hop){
 
 void ShellSort(int nums[], int length){
     int hop_arr[] = {5, 3, 1};
-    for (int i = 0; i < 1; i++){
+    for (int i = 0; i < 3; i++){
         ShellInsert(nums, length, hop_arr[i]);
     }
 }
