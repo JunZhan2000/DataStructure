@@ -84,13 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Select/SelectSort.c">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.c">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Select/SelectSort.h">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.h">
 			<Option target="DataStructure"/>
 		</Unit>
-		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/Select/SelectSortTest.c">
+		<Unit filename="C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSortTest.c">
 			<Option target="DataStructure"/>
 		</Unit>
 		<Unit filename="C:/Users/23276/Desktop/DataStructure/CMakeLists.txt">

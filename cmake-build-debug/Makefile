@@ -122,59 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Sort/Select/SelectSort.obj: Sort/Select/SelectSort.c.obj
+Sort/MergeSort/MergeSort.obj: Sort/MergeSort/MergeSort.c.obj
 
-.PHONY : Sort/Select/SelectSort.obj
-
-# target to build an object file
-Sort/Select/SelectSort.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj
-.PHONY : Sort/Select/SelectSort.c.obj
-
-Sort/Select/SelectSort.i: Sort/Select/SelectSort.c.i
-
-.PHONY : Sort/Select/SelectSort.i
-
-# target to preprocess a source file
-Sort/Select/SelectSort.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.i
-.PHONY : Sort/Select/SelectSort.c.i
-
-Sort/Select/SelectSort.s: Sort/Select/SelectSort.c.s
-
-.PHONY : Sort/Select/SelectSort.s
-
-# target to generate assembly for a file
-Sort/Select/SelectSort.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.s
-.PHONY : Sort/Select/SelectSort.c.s
-
-Sort/Select/SelectSortTest.obj: Sort/Select/SelectSortTest.c.obj
-
-.PHONY : Sort/Select/SelectSortTest.obj
+.PHONY : Sort/MergeSort/MergeSort.obj
 
 # target to build an object file
-Sort/Select/SelectSortTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj
-.PHONY : Sort/Select/SelectSortTest.c.obj
+Sort/MergeSort/MergeSort.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.obj
+.PHONY : Sort/MergeSort/MergeSort.c.obj
 
-Sort/Select/SelectSortTest.i: Sort/Select/SelectSortTest.c.i
+Sort/MergeSort/MergeSort.i: Sort/MergeSort/MergeSort.c.i
 
-.PHONY : Sort/Select/SelectSortTest.i
+.PHONY : Sort/MergeSort/MergeSort.i
 
 # target to preprocess a source file
-Sort/Select/SelectSortTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.i
-.PHONY : Sort/Select/SelectSortTest.c.i
+Sort/MergeSort/MergeSort.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.i
+.PHONY : Sort/MergeSort/MergeSort.c.i
 
-Sort/Select/SelectSortTest.s: Sort/Select/SelectSortTest.c.s
+Sort/MergeSort/MergeSort.s: Sort/MergeSort/MergeSort.c.s
 
-.PHONY : Sort/Select/SelectSortTest.s
+.PHONY : Sort/MergeSort/MergeSort.s
 
 # target to generate assembly for a file
-Sort/Select/SelectSortTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.s
-.PHONY : Sort/Select/SelectSortTest.c.s
+Sort/MergeSort/MergeSort.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.s
+.PHONY : Sort/MergeSort/MergeSort.c.s
+
+Sort/MergeSort/MergeSortTest.obj: Sort/MergeSort/MergeSortTest.c.obj
+
+.PHONY : Sort/MergeSort/MergeSortTest.obj
+
+# target to build an object file
+Sort/MergeSort/MergeSortTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.obj
+.PHONY : Sort/MergeSort/MergeSortTest.c.obj
+
+Sort/MergeSort/MergeSortTest.i: Sort/MergeSort/MergeSortTest.c.i
+
+.PHONY : Sort/MergeSort/MergeSortTest.i
+
+# target to preprocess a source file
+Sort/MergeSort/MergeSortTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.i
+.PHONY : Sort/MergeSort/MergeSortTest.c.i
+
+Sort/MergeSort/MergeSortTest.s: Sort/MergeSort/MergeSortTest.c.s
+
+.PHONY : Sort/MergeSort/MergeSortTest.s
+
+# target to generate assembly for a file
+Sort/MergeSort/MergeSortTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.s
+.PHONY : Sort/MergeSort/MergeSortTest.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sort/Select/SelectSort.obj
-	@echo ... Sort/Select/SelectSort.i
-	@echo ... Sort/Select/SelectSort.s
-	@echo ... Sort/Select/SelectSortTest.obj
-	@echo ... Sort/Select/SelectSortTest.i
-	@echo ... Sort/Select/SelectSortTest.s
+	@echo ... Sort/MergeSort/MergeSort.obj
+	@echo ... Sort/MergeSort/MergeSort.i
+	@echo ... Sort/MergeSort/MergeSort.s
+	@echo ... Sort/MergeSort/MergeSortTest.obj
+	@echo ... Sort/MergeSort/MergeSortTest.i
+	@echo ... Sort/MergeSort/MergeSortTest.s
 .PHONY : help
 
 

@@ -9,4 +9,4 @@ include_directories(Tree)
 include_directories(Graph)
 
 add_executable(DataStructure
-        Sort/Select/SelectSort.h Sort/Select/SelectSort.c Sort/Select/SelectSortTest.c)
+        Sort/MergeSort/MergeSort.h Sort/MergeSort/MergeSort.c Sort/MergeSort/MergeSortTest.c)
