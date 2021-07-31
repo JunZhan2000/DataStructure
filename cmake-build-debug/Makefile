@@ -122,59 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Sort/Swap/SwapSort.obj: Sort/Swap/SwapSort.c.obj
+Sort/Select/SelectSort.obj: Sort/Select/SelectSort.c.obj
 
-.PHONY : Sort/Swap/SwapSort.obj
-
-# target to build an object file
-Sort/Swap/SwapSort.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj
-.PHONY : Sort/Swap/SwapSort.c.obj
-
-Sort/Swap/SwapSort.i: Sort/Swap/SwapSort.c.i
-
-.PHONY : Sort/Swap/SwapSort.i
-
-# target to preprocess a source file
-Sort/Swap/SwapSort.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.i
-.PHONY : Sort/Swap/SwapSort.c.i
-
-Sort/Swap/SwapSort.s: Sort/Swap/SwapSort.c.s
-
-.PHONY : Sort/Swap/SwapSort.s
-
-# target to generate assembly for a file
-Sort/Swap/SwapSort.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.s
-.PHONY : Sort/Swap/SwapSort.c.s
-
-Sort/Swap/SwapSortTest.obj: Sort/Swap/SwapSortTest.c.obj
-
-.PHONY : Sort/Swap/SwapSortTest.obj
+.PHONY : Sort/Select/SelectSort.obj
 
 # target to build an object file
-Sort/Swap/SwapSortTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj
-.PHONY : Sort/Swap/SwapSortTest.c.obj
+Sort/Select/SelectSort.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj
+.PHONY : Sort/Select/SelectSort.c.obj
 
-Sort/Swap/SwapSortTest.i: Sort/Swap/SwapSortTest.c.i
+Sort/Select/SelectSort.i: Sort/Select/SelectSort.c.i
 
-.PHONY : Sort/Swap/SwapSortTest.i
+.PHONY : Sort/Select/SelectSort.i
 
 # target to preprocess a source file
-Sort/Swap/SwapSortTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.i
-.PHONY : Sort/Swap/SwapSortTest.c.i
+Sort/Select/SelectSort.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.i
+.PHONY : Sort/Select/SelectSort.c.i
 
-Sort/Swap/SwapSortTest.s: Sort/Swap/SwapSortTest.c.s
+Sort/Select/SelectSort.s: Sort/Select/SelectSort.c.s
 
-.PHONY : Sort/Swap/SwapSortTest.s
+.PHONY : Sort/Select/SelectSort.s
 
 # target to generate assembly for a file
-Sort/Swap/SwapSortTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.s
-.PHONY : Sort/Swap/SwapSortTest.c.s
+Sort/Select/SelectSort.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.s
+.PHONY : Sort/Select/SelectSort.c.s
+
+Sort/Select/SelectSortTest.obj: Sort/Select/SelectSortTest.c.obj
+
+.PHONY : Sort/Select/SelectSortTest.obj
+
+# target to build an object file
+Sort/Select/SelectSortTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj
+.PHONY : Sort/Select/SelectSortTest.c.obj
+
+Sort/Select/SelectSortTest.i: Sort/Select/SelectSortTest.c.i
+
+.PHONY : Sort/Select/SelectSortTest.i
+
+# target to preprocess a source file
+Sort/Select/SelectSortTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.i
+.PHONY : Sort/Select/SelectSortTest.c.i
+
+Sort/Select/SelectSortTest.s: Sort/Select/SelectSortTest.c.s
+
+.PHONY : Sort/Select/SelectSortTest.s
+
+# target to generate assembly for a file
+Sort/Select/SelectSortTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.s
+.PHONY : Sort/Select/SelectSortTest.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sort/Swap/SwapSort.obj
-	@echo ... Sort/Swap/SwapSort.i
-	@echo ... Sort/Swap/SwapSort.s
-	@echo ... Sort/Swap/SwapSortTest.obj
-	@echo ... Sort/Swap/SwapSortTest.i
-	@echo ... Sort/Swap/SwapSortTest.s
+	@echo ... Sort/Select/SelectSort.obj
+	@echo ... Sort/Select/SelectSort.i
+	@echo ... Sort/Select/SelectSort.s
+	@echo ... Sort/Select/SelectSortTest.obj
+	@echo ... Sort/Select/SelectSortTest.i
+	@echo ... Sort/Select/SelectSortTest.s
 .PHONY : help
 
 

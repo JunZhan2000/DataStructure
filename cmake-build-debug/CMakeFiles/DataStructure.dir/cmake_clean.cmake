@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj"
-  "CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
   "DataStructure.pdb"

@@ -56,44 +56,44 @@ include CMakeFiles/DataStructure.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/DataStructure.dir/flags.make
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj: ../Sort/Swap/SwapSort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Swap\SwapSort.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSort.c
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj: ../Sort/Select/SelectSort.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Select\SelectSort.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSort.c
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSort.c > CMakeFiles\DataStructure.dir\Sort\Swap\SwapSort.c.i
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSort.c > CMakeFiles\DataStructure.dir\Sort\Select\SelectSort.c.i
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSort.c -o CMakeFiles\DataStructure.dir\Sort\Swap\SwapSort.c.s
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSort.c -o CMakeFiles\DataStructure.dir\Sort\Select\SelectSort.c.s
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj: ../Sort/Swap/SwapSortTest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Swap\SwapSortTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSortTest.c
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj: CMakeFiles/DataStructure.dir/flags.make
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj: CMakeFiles/DataStructure.dir/includes_C.rsp
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj: ../Sort/Select/SelectSortTest.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\23276\Desktop\DataStructure\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\DataStructure.dir\Sort\Select\SelectSortTest.c.obj   -c C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSortTest.c
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSortTest.c > CMakeFiles\DataStructure.dir\Sort\Swap\SwapSortTest.c.i
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSortTest.c > CMakeFiles\DataStructure.dir\Sort\Select\SelectSortTest.c.i
 
-CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Sort\Swap\SwapSortTest.c -o CMakeFiles\DataStructure.dir\Sort\Swap\SwapSortTest.c.s
+CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\23276\Desktop\DataStructure\Sort\Select\SelectSortTest.c -o CMakeFiles\DataStructure.dir\Sort\Select\SelectSortTest.c.s
 
 # Object files for target DataStructure
 DataStructure_OBJECTS = \
-"CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj" \
-"CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj"
+"CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj" \
+"CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj"
 
 # External object files for target DataStructure
 DataStructure_EXTERNAL_OBJECTS =
 
-DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj
-DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj
+DataStructure.exe: CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj
 DataStructure.exe: CMakeFiles/DataStructure.dir/build.make
 DataStructure.exe: CMakeFiles/DataStructure.dir/linklibs.rsp
 DataStructure.exe: CMakeFiles/DataStructure.dir/objects1.rsp

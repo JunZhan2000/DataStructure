@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/23276/Desktop/DataStructure/Sort/Swap/SwapSort.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/Swap/SwapSort.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/Sort/Swap/SwapSortTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/Swap/SwapSortTest.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Sort/Select/SelectSort.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/Select/SelectSort.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Sort/Select/SelectSortTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/Select/SelectSortTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
