@@ -122,59 +122,59 @@ DataStructure/fast:
 	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/build
 .PHONY : DataStructure/fast
 
-Sort/MergeSort/MergeSort.obj: Sort/MergeSort/MergeSort.c.obj
+Sort/RadixSort/RadixSort.obj: Sort/RadixSort/RadixSort.c.obj
 
-.PHONY : Sort/MergeSort/MergeSort.obj
-
-# target to build an object file
-Sort/MergeSort/MergeSort.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.obj
-.PHONY : Sort/MergeSort/MergeSort.c.obj
-
-Sort/MergeSort/MergeSort.i: Sort/MergeSort/MergeSort.c.i
-
-.PHONY : Sort/MergeSort/MergeSort.i
-
-# target to preprocess a source file
-Sort/MergeSort/MergeSort.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.i
-.PHONY : Sort/MergeSort/MergeSort.c.i
-
-Sort/MergeSort/MergeSort.s: Sort/MergeSort/MergeSort.c.s
-
-.PHONY : Sort/MergeSort/MergeSort.s
-
-# target to generate assembly for a file
-Sort/MergeSort/MergeSort.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.s
-.PHONY : Sort/MergeSort/MergeSort.c.s
-
-Sort/MergeSort/MergeSortTest.obj: Sort/MergeSort/MergeSortTest.c.obj
-
-.PHONY : Sort/MergeSort/MergeSortTest.obj
+.PHONY : Sort/RadixSort/RadixSort.obj
 
 # target to build an object file
-Sort/MergeSort/MergeSortTest.c.obj:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.obj
-.PHONY : Sort/MergeSort/MergeSortTest.c.obj
+Sort/RadixSort/RadixSort.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSort.c.obj
+.PHONY : Sort/RadixSort/RadixSort.c.obj
 
-Sort/MergeSort/MergeSortTest.i: Sort/MergeSort/MergeSortTest.c.i
+Sort/RadixSort/RadixSort.i: Sort/RadixSort/RadixSort.c.i
 
-.PHONY : Sort/MergeSort/MergeSortTest.i
+.PHONY : Sort/RadixSort/RadixSort.i
 
 # target to preprocess a source file
-Sort/MergeSort/MergeSortTest.c.i:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.i
-.PHONY : Sort/MergeSort/MergeSortTest.c.i
+Sort/RadixSort/RadixSort.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSort.c.i
+.PHONY : Sort/RadixSort/RadixSort.c.i
 
-Sort/MergeSort/MergeSortTest.s: Sort/MergeSort/MergeSortTest.c.s
+Sort/RadixSort/RadixSort.s: Sort/RadixSort/RadixSort.c.s
 
-.PHONY : Sort/MergeSort/MergeSortTest.s
+.PHONY : Sort/RadixSort/RadixSort.s
 
 # target to generate assembly for a file
-Sort/MergeSort/MergeSortTest.c.s:
-	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.s
-.PHONY : Sort/MergeSort/MergeSortTest.c.s
+Sort/RadixSort/RadixSort.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSort.c.s
+.PHONY : Sort/RadixSort/RadixSort.c.s
+
+Sort/RadixSort/RadixSortTest.obj: Sort/RadixSort/RadixSortTest.c.obj
+
+.PHONY : Sort/RadixSort/RadixSortTest.obj
+
+# target to build an object file
+Sort/RadixSort/RadixSortTest.c.obj:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSortTest.c.obj
+.PHONY : Sort/RadixSort/RadixSortTest.c.obj
+
+Sort/RadixSort/RadixSortTest.i: Sort/RadixSort/RadixSortTest.c.i
+
+.PHONY : Sort/RadixSort/RadixSortTest.i
+
+# target to preprocess a source file
+Sort/RadixSort/RadixSortTest.c.i:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSortTest.c.i
+.PHONY : Sort/RadixSort/RadixSortTest.c.i
+
+Sort/RadixSort/RadixSortTest.s: Sort/RadixSort/RadixSortTest.c.s
+
+.PHONY : Sort/RadixSort/RadixSortTest.s
+
+# target to generate assembly for a file
+Sort/RadixSort/RadixSortTest.c.s:
+	$(MAKE) -f CMakeFiles\DataStructure.dir\build.make CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSortTest.c.s
+.PHONY : Sort/RadixSort/RadixSortTest.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... DataStructure
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Sort/MergeSort/MergeSort.obj
-	@echo ... Sort/MergeSort/MergeSort.i
-	@echo ... Sort/MergeSort/MergeSort.s
-	@echo ... Sort/MergeSort/MergeSortTest.obj
-	@echo ... Sort/MergeSort/MergeSortTest.i
-	@echo ... Sort/MergeSort/MergeSortTest.s
+	@echo ... Sort/RadixSort/RadixSort.obj
+	@echo ... Sort/RadixSort/RadixSort.i
+	@echo ... Sort/RadixSort/RadixSort.s
+	@echo ... Sort/RadixSort/RadixSortTest.obj
+	@echo ... Sort/RadixSort/RadixSortTest.i
+	@echo ... Sort/RadixSort/RadixSortTest.s
 .PHONY : help
 
 

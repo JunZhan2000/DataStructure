@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.obj"
-  "C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSortTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Sort/RadixSort/RadixSort.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSort.c.obj"
+  "C:/Users/23276/Desktop/DataStructure/Sort/RadixSort/RadixSortTest.c" "C:/Users/23276/Desktop/DataStructure/cmake-build-debug/CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSortTest.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

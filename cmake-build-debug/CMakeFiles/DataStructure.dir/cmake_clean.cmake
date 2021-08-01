@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSort.c.obj"
-  "CMakeFiles/DataStructure.dir/Sort/MergeSort/MergeSortTest.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSort.c.obj"
+  "CMakeFiles/DataStructure.dir/Sort/RadixSort/RadixSortTest.c.obj"
   "DataStructure.exe"
   "DataStructure.exe.manifest"
   "DataStructure.pdb"

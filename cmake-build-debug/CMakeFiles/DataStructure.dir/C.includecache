@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.c
-
-C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.h
-
-C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSortTest.c
-MergeSort.h
-C:/Users/23276/Desktop/DataStructure/Sort/MergeSort/MergeSort.h
-stdio.h
+C:/Users/23276/Desktop/DataStructure/Sort/RadixSort/RadixSort.c
+RadixSort.h
+C:/Users/23276/Desktop/DataStructure/Sort/RadixSort/RadixSort.h
+stdlib.h
 -
+
+C:/Users/23276/Desktop/DataStructure/Sort/RadixSort/RadixSort.h
 
